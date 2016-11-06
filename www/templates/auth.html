@@ -1,0 +1,26 @@
+﻿<div  ng-cloak >
+    <md-content class="md-padding" layout-xs="column" layout="row" style="background: url('http://i.imgur.com/FEMgplM.jpg') center; background-size: cover;">
+        <div flex-xs flex-gt="50" layout="column">
+          
+            <md-card>
+                <img ng-src="{{imagePath}}" class="md-card-image" alt="Washed Out">
+                <md-card-title>
+                    <md-card-title-text>
+                        <span class="md-headline">Identity Verification</span>
+                    </md-card-title-text>
+                </md-card-title>
+                <md-card-content>
+                    <p>
+                        In order to verify and mining data from your social media please provide the data
+                    </p>
+                </md-card-content>
+                <md-card-actions layout="column" layout-align="start">
+                    <button class="button icon-left ion-social-twitter button-positive">Twitter</button>
+                    <br />
+                    <button class="button icon-left ion-social-facebook button-positive" ng-click="facebookauth()">Facebook</button>
+                </md-card-actions>
+            </md-card>
+        </div>
+     
+    </md-content>
+</div>
